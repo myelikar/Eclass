@@ -1,0 +1,30 @@
+CREATE TABLE "institutes" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_institutes" PRIMARY KEY AUTOINCREMENT,
+    "CreatedOn" TEXT NOT NULL,
+    "CreatedBy" TEXT NOT NULL,
+    "ModifiedOn" TEXT NULL,
+    "ModifiedBy" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "ShortName" TEXT NOT NULL,
+    "Description" TEXT NOT NULL,
+    "RID" TEXT NOT NULL,
+    "IsActive" INTEGER NOT NULL,
+    "IsDeleted" INTEGER NOT NULL
+)
+
+
+CREATE TABLE "users" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_users" PRIMARY KEY AUTOINCREMENT,
+    "FirstName" TEXT NOT NULL,
+    "MiddleName" TEXT NOT NULL,
+    "LastName" TEXT NOT NULL,
+    "MobileNo" TEXT NOT NULL,
+    "EmailId" TEXT NOT NULL,
+    "UserName" TEXT NOT NULL,
+    "Password" TEXT NOT NULL,
+    "CreatedOn" TEXT NOT NULL,
+    "CreatedBy" TEXT NOT NULL,
+    "ModifiedOn" TEXT NULL,
+    "ModifiedBy" TEXT NOT NULL
+)
+

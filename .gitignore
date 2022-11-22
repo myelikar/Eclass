@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Admin.Module/bin/Debug/net6.0
+/Admin.Module/obj
+/AdminApp/bin/Debug/net6.0
+/AdminApp/obj
+/ApiServer/bin/Debug/net6.0
+/ApiServer/obj
+/Domain/obj
+/EClass.Domain/obj
+/Messages/bin/Debug/net6.0
+/Messages/obj
+/User.Module/bin/Debug/net6.0
+/User.Module/obj
